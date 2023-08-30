@@ -1,0 +1,82 @@
+label .content2 {
+  width: 900px;
+  height: 500px;
+  position: absolute;
+  display: flex;
+  transform: translate(-660px, -450px);
+  padding: 40px 50px 60px 50px;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--font-whi);
+  transition: -webkit-clip-path 1s;
+  transition: clip-path 1s;
+  transition: clip-path 1s, -webkit-clip-path 1s;
+}
+label .content2 .box-midia {
+  color: var(--font-bla);
+}
+
+.content-clip1 {
+  -webkit-clip-path: circle(0% at 75.3% 86.1%);
+          clip-path: circle(0% at 75.3% 86.1%);
+}
+
+#instagram + label .content2 {
+  background-color: var(--instagram-bgc);
+}
+#instagram + label .content2 a {
+  background-color: var(--instagram-a-bgc);
+  color: var(--font-whi);
+}
+
+#instagram[type=checkbox]:checked + label .content2 {
+  -webkit-clip-path: circle(300% at 75.3% 86.1%);
+          clip-path: circle(300% at 75.3% 86.1%);
+}
+#instagram[type=checkbox]:checked + label .content2 .fa-instagram {
+  color: var(--font-whi);
+}
+
+.content-clip2 {
+  -webkit-clip-path: circle(0% at 83.6% 86.1%);
+          clip-path: circle(0% at 83.6% 86.1%);
+}
+
+#linkedin + label .content2 {
+  background-color: var(--linkedin-bgc);
+  transform: translate(-735px, -450px);
+}
+#linkedin + label .content2 a {
+  background-color: var(--linkedin-a-bgc);
+  color: var(--font-bla);
+}
+
+#linkedin[type=checkbox]:checked + label .content2 {
+  -webkit-clip-path: circle(300% at 83.6% 86.1%);
+          clip-path: circle(300% at 83.6% 86.1%);
+}
+#linkedin[type=checkbox]:checked + label .content2 .fa-linkedin {
+  color: var(--font-whi);
+}
+
+.content-clip3 {
+  -webkit-clip-path: circle(0% at 92.1% 86.1%);
+          clip-path: circle(0% at 92.1% 86.1%);
+}
+
+#twitter + label .content2 {
+  background-color: var(--twitter-bgc);
+  transform: translate(-810px, -450px);
+}
+#twitter + label .content2 a {
+  background-color: var(--twitter-a-bgc);
+  color: var(--font-bla);
+}
+
+#twitter[type=checkbox]:checked + label .content2 {
+  -webkit-clip-path: circle(300% at 92.1% 86.1%);
+          clip-path: circle(300% at 92.1% 86.1%);
+}
+#twitter[type=checkbox]:checked + label .content2 .fa-twitter {
+  color: var(--font-whi);
+}/*# sourceMappingURL=input.css.map */
